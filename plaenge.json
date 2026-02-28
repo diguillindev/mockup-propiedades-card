@@ -1,0 +1,770 @@
+{
+  "propiedades": [
+    {
+      "id": 1,
+      "nombre": "Ópera",
+      "ubicacion": {
+        "comuna": "Temuco",
+        "region": "La Araucanía",
+        "ciudad_filtro": "Temuco"
+      },
+      "caracteristicas": {
+        "dormitorios": ["2", "3", "4"],
+        "tipos": ["2 dormitorios", "3 dormitorios", "4 dormitorios"],
+        "metraje": "104 a 173m²"
+      },
+      "plazo_entrega": {
+        "estado": "Lanzamiento",
+        "clases_css": ["lanzamiento"],
+        "texto_raw": "Lanzamiento"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://www.plaenge.cl/UPLOAD/imagens/1829b8b2-c3d3-4533-b33a-78ad8db37deb.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "https://www.plaenge.cl/temuco/opera",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "56999640999",
+        "url": "https://wa.me/56999640999",
+        "disponible": true
+      },
+      "categoria_sitio": "Temuco"
+    },
+    {
+      "id": 2,
+      "nombre": "Cuiabá Elegance",
+      "ubicacion": {
+        "comuna": "Temuco",
+        "region": "La Araucanía",
+        "ciudad_filtro": "Temuco"
+      },
+      "caracteristicas": {
+        "dormitorios": ["2", "3"],
+        "tipos": ["2 dormitorios", "3 dormitorios"],
+        "metraje": "75 a 133 m²"
+      },
+      "plazo_entrega": {
+        "estado": "Entrega Inmediata",
+        "clases_css": ["entrega-inmediata"],
+        "texto_raw": "Entrega Inmediata"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": false,
+        "vendido": true,
+        "proximamente": false,
+        "etiqueta": "100% VENDIDO"
+      },
+      "imagen_principal": "https://www.plaenge.cl/UPLOAD/imagens/975ba228-8d0e-461f-a6c7-b7411ad99ad4.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "javascript:void(0)",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "56999640999",
+        "url": "https://wa.me/56999640999",
+        "disponible": true
+      },
+      "categoria_sitio": "Temuco"
+    },
+    {
+      "id": 3,
+      "nombre": "Soul Live Inside",
+      "ubicacion": {
+        "comuna": "Temuco",
+        "region": "La Araucanía",
+        "ciudad_filtro": "Temuco"
+      },
+      "caracteristicas": {
+        "dormitorios": ["1", "2", "3"],
+        "tipos": ["1 dormitorio", "2 dormitorios", "3 dormitorios"],
+        "metraje": "59 a 123m²"
+      },
+      "plazo_entrega": {
+        "estado": "Venta en verde",
+        "clases_css": ["venta-en-verde"],
+        "texto_raw": "Venta en verde"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://www.plaenge.cl/UPLOAD/imagens/9e1f0620-ee21-4c36-acf1-a1bf500477f6.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "https://www.plaenge.cl/temuco/soul-live-inside/",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "56999640999",
+        "url": "https://wa.me/56999640999",
+        "disponible": true
+      },
+      "categoria_sitio": "Temuco"
+    },
+    {
+      "id": 4,
+      "nombre": "Brasilia View",
+      "ubicacion": {
+        "comuna": "Temuco",
+        "region": "La Araucanía",
+        "ciudad_filtro": "Temuco"
+      },
+      "caracteristicas": {
+        "dormitorios": ["2", "3"],
+        "tipos": ["2 dormitorios", "3 dormitorios"],
+        "metraje": "89 a 149m²"
+      },
+      "plazo_entrega": {
+        "estado": "Entrega Inmediata",
+        "clases_css": ["entrega-inmediata"],
+        "texto_raw": "Entrega Inmediata"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://www.plaenge.cl/UPLOAD/imagens/2e6a11ca-5561-43c7-bb29-44b955a90ab9.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "https://www.plaenge.cl/temuco/brasilia-view/",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "56999640999",
+        "url": "https://wa.me/56999640999",
+        "disponible": true
+      },
+      "categoria_sitio": "Temuco"
+    },
+    {
+      "id": 5,
+      "nombre": "Belo Horizonte",
+      "ubicacion": {
+        "comuna": "Temuco",
+        "region": "La Araucanía",
+        "ciudad_filtro": "Temuco"
+      },
+      "caracteristicas": {
+        "dormitorios": ["3", "4"],
+        "tipos": ["3 dormitorios", "4 dormitorios"],
+        "metraje": "107 a 140 m²",
+        "tipo_propiedad": "Casas"
+      },
+      "plazo_entrega": {
+        "estado": "Entrega Inmediata",
+        "clases_css": ["entrega-inmediata"],
+        "texto_raw": "Entrega Inmediata"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": false,
+        "vendido": true,
+        "proximamente": false,
+        "etiqueta": "100% VENDIDO"
+      },
+      "imagen_principal": "https://www.plaenge.cl/UPLOAD/imagens/a8d4ed19-64d6-4ae1-8a80-5097563786f2.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "javascript:void(0)",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "56999640999",
+        "url": "https://wa.me/56999640999",
+        "disponible": true
+      },
+      "categoria_sitio": "Temuco"
+    },
+    {
+      "id": 6,
+      "nombre": "Distrito Paulista II",
+      "ubicacion": {
+        "comuna": "Santiago",
+        "region": "Metropolitana de Santiago",
+        "ciudad_filtro": "Santiago"
+      },
+      "caracteristicas": {
+        "dormitorios": ["1", "2", "3"],
+        "tipos": ["1 dormitorio", "2 dormitorios", "3 dormitorios"],
+        "metraje": "47 a 136 m²"
+      },
+      "plazo_entrega": {
+        "estado": "Venta en verde",
+        "clases_css": ["venta-en-verde"],
+        "texto_raw": "Venta en verde"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://www.plaenge.cl/UPLOAD/imagens/ca09e4ee-6783-4869-a984-e4a893655c0c.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "https://www.plaenge.cl/santiago/distrito-paulista-ii",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "56977387193",
+        "url": "https://wa.me/56977387193",
+        "disponible": true
+      },
+      "categoria_sitio": "Santiago"
+    },
+    {
+      "id": 7,
+      "nombre": "Distrito Paulista",
+      "ubicacion": {
+        "comuna": "Santiago",
+        "region": "Metropolitana de Santiago",
+        "ciudad_filtro": "Santiago"
+      },
+      "caracteristicas": {
+        "dormitorios": ["1", "2", "3"],
+        "tipos": ["1 dormitorio", "2 dormitorios", "3 dormitorios"],
+        "metraje": "52 a 137m²"
+      },
+      "plazo_entrega": {
+        "estado": "Venta en verde",
+        "clases_css": ["venta-en-verde"],
+        "texto_raw": "Venta en verde"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://www.plaenge.cl/UPLOAD/imagens/666067c2-03b1-45f5-a03a-e4abbf4f270c.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "https://www.plaenge.cl/santiago/distrito-paulista/",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "56977387193",
+        "url": "https://wa.me/56977387193",
+        "disponible": true
+      },
+      "categoria_sitio": "Santiago"
+    },
+    {
+      "id": 8,
+      "nombre": "Artis",
+      "ubicacion": {
+        "comuna": "Curitiba",
+        "region": "Paraná",
+        "ciudad_filtro": "Curitiba",
+        "barrio": "Mercês"
+      },
+      "caracteristicas": {
+        "dormitorios": ["3", "4"],
+        "tipos": ["3 dormitorios", "4 dormitorios"],
+        "metraje": "107 a 304 m²",
+        "suites": ["1", "3", "4"]
+      },
+      "plazo_entrega": {
+        "estado": "Lanzamiento",
+        "clases_css": ["lanzamiento"],
+        "texto_raw": "Lançamento - Conclusão: Mar/2029"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://www.plaenge.com.br/upload/imagens/ac14d197-c13e-4cde-bcf3-84e2f519a6fd.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "https://www.plaenge.com.br/curitiba/artis",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "554133171717",
+        "url": "https://api.whatsapp.com/send?phone=554133171717&text=Ola, tudo bem? Gostaria de conhecer mais sobre os imoveis em Curitiba",
+        "disponible": true
+      },
+      "categoria_sitio": "Curitiba"
+    },
+    {
+      "id": 9,
+      "nombre": "Plaenge design by Pininfarina",
+      "ubicacion": {
+        "comuna": "Curitiba",
+        "region": "Paraná",
+        "ciudad_filtro": "Curitiba",
+        "barrio": null
+      },
+      "caracteristicas": {
+        "dormitorios": [],
+        "tipos": [],
+        "metraje": null,
+        "suites": []
+      },
+      "plazo_entrega": {
+        "estado": "Lanzamiento",
+        "clases_css": ["lanzamiento"],
+        "texto_raw": "Lançamento"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://www.plaenge.com.br/upload/imagens/32ea2066-a0b9-490a-ad7c-725e63ecb5af.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "https://www.plaenge.com.br/curitiba/plaenge-design-by-pininfarina",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "554133171717",
+        "url": "https://api.whatsapp.com/send?phone=554133171717&text=Ola, tudo bem? Gostaria de conhecer mais sobre os imoveis em Curitiba",
+        "disponible": true
+      },
+      "categoria_sitio": "Curitiba"
+    },
+    {
+      "id": 10,
+      "nombre": "Plaenge Átrio",
+      "ubicacion": {
+        "comuna": "Curitiba",
+        "region": "Paraná",
+        "ciudad_filtro": "Curitiba",
+        "barrio": "Ecoville"
+      },
+      "caracteristicas": {
+        "dormitorios": ["3"],
+        "tipos": ["3 dormitorios"],
+        "metraje": "171 m²",
+        "suites": ["3"]
+      },
+      "plazo_entrega": {
+        "estado": "En Construcción",
+        "clases_css": ["en-construccion"],
+        "texto_raw": "Em Construção - Conclusão: Ago/2028"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://www.plaenge.com.br/upload/imagens/a9d86535-fd87-48ab-ae79-e7f30b9cce7d.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "https://www.plaenge.com.br/curitiba/plaenge-atrio",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "554133171717",
+        "url": "https://api.whatsapp.com/send?phone=554133171717&text=Ola, tudo bem? Gostaria de conhecer mais sobre os imoveis em Curitiba",
+        "disponible": true
+      },
+      "categoria_sitio": "Curitiba"
+    },
+    {
+      "id": 11,
+      "nombre": "Horizon Ecoville",
+      "ubicacion": {
+        "comuna": "Curitiba",
+        "region": "Paraná",
+        "ciudad_filtro": "Curitiba",
+        "barrio": "Ecoville"
+      },
+      "caracteristicas": {
+        "dormitorios": ["2", "3"],
+        "tipos": ["2 dormitorios", "3 dormitorios"],
+        "metraje": "120 a 218 m²",
+        "suites": ["1", "2"]
+      },
+      "plazo_entrega": {
+        "estado": "En Construcción",
+        "clases_css": ["en-construccion"],
+        "texto_raw": "Em Construção - Conclusão: Out/2027"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://www.plaenge.com.br/upload/imagens/c149eb5c-63ec-47a3-8a54-2963ba2909f3.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "https://www.plaenge.com.br/curitiba/horizon-ecoville",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "554133171717",
+        "url": "https://api.whatsapp.com/send?phone=554133171717&text=Ola, tudo bem? Gostaria de conhecer mais sobre os imoveis em Curitiba",
+        "disponible": true
+      },
+      "categoria_sitio": "Curitiba"
+    },
+    {
+      "id": 12,
+      "nombre": "Paseo Folloni",
+      "ubicacion": {
+        "comuna": "Curitiba",
+        "region": "Paraná",
+        "ciudad_filtro": "Curitiba",
+        "barrio": "Ahú"
+      },
+      "caracteristicas": {
+        "dormitorios": ["2", "3"],
+        "tipos": ["2 dormitorios", "3 dormitorios"],
+        "metraje": "112 a 269 m²",
+        "suites": ["1", "3"]
+      },
+      "plazo_entrega": {
+        "estado": "En Construcción",
+        "clases_css": ["en-construccion"],
+        "texto_raw": "Em Construção - Conclusão: Set/2027"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://www.plaenge.com.br/upload/imagens/dfb251f3-b5a2-4d9c-8cde-e1fe75960c8c.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "https://www.plaenge.com.br/curitiba/paseo-folloni",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "554133171717",
+        "url": "https://api.whatsapp.com/send?phone=554133171717&text=Ola, tudo bem? Gostaria de conhecer mais sobre os imoveis em Curitiba",
+        "disponible": true
+      },
+      "categoria_sitio": "Curitiba"
+    },
+    {
+      "id": 13,
+      "nombre": "Ágon Residence",
+      "ubicacion": {
+        "comuna": "Curitiba",
+        "region": "Paraná",
+        "ciudad_filtro": "Curitiba",
+        "barrio": "Água Verde"
+      },
+      "caracteristicas": {
+        "dormitorios": ["2", "3"],
+        "tipos": ["2 dormitorios", "3 dormitorios"],
+        "metraje": "129 a 237 m²",
+        "suites": ["1", "3"]
+      },
+      "plazo_entrega": {
+        "estado": "En Construcción",
+        "clases_css": ["en-construccion"],
+        "texto_raw": "Em Construção - Conclusão: Abr/2027"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://www.plaenge.com.br/upload/imagens/d5639a22-78fd-4104-bb6d-1d70672a63b4.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "https://www.plaenge.com.br/curitiba/agon-residence",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "554133171717",
+        "url": "https://api.whatsapp.com/send?phone=554133171717&text=Ola, tudo bem? Gostaria de conhecer mais sobre os imoveis em Curitiba",
+        "disponible": true
+      },
+      "categoria_sitio": "Curitiba"
+    },
+    {
+      "id": 14,
+      "nombre": "Landhaus",
+      "ubicacion": {
+        "comuna": "Curitiba",
+        "region": "Paraná",
+        "ciudad_filtro": "Curitiba",
+        "barrio": "Ecoville"
+      },
+      "caracteristicas": {
+        "dormitorios": ["3"],
+        "tipos": ["3 dormitorios"],
+        "metraje": "193 m²",
+        "suites": ["3"]
+      },
+      "plazo_entrega": {
+        "estado": "Listo para Habitar",
+        "clases_css": ["listo-para-habitar"],
+        "texto_raw": "Pronto Para Morar"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://www.plaenge.com.br/upload/imagens/0fd69cf2-f354-497b-9446-68c9cc090b87.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "https://www.plaenge.com.br/curitiba/landhaus",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "554133171717",
+        "url": "https://api.whatsapp.com/send?phone=554133171717&text=Ola, tudo bem? Gostaria de conhecer mais sobre os imoveis em Curitiba",
+        "disponible": true
+      },
+      "categoria_sitio": "Curitiba"
+    },
+    {
+      "id": 15,
+      "nombre": "Palm 235",
+      "ubicacion": {
+        "comuna": "Curitiba",
+        "region": "Paraná",
+        "ciudad_filtro": "Curitiba",
+        "barrio": "Alto da Glória"
+      },
+      "caracteristicas": {
+        "dormitorios": ["3", "4"],
+        "tipos": ["3 dormitorios", "4 dormitorios"],
+        "metraje": "111 a 171 m²",
+        "suites": ["3"]
+      },
+      "plazo_entrega": {
+        "estado": "Listo para Habitar",
+        "clases_css": ["listo-para-habitar"],
+        "texto_raw": "Pronto Para Morar"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://www.plaenge.com.br/upload/imagens/14de8996-4dd1-46db-adf0-de8a1b829bb4.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "https://www.plaenge.com.br/curitiba/palm-235",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "554133171717",
+        "url": "https://api.whatsapp.com/send?phone=554133171717&text=Ola, tudo bem? Gostaria de conhecer mais sobre os imoveis em Curitiba",
+        "disponible": true
+      },
+      "categoria_sitio": "Curitiba"
+    },
+    {
+      "id": 16,
+      "nombre": "Signature Plaenge",
+      "ubicacion": {
+        "comuna": "Curitiba",
+        "region": "Paraná",
+        "ciudad_filtro": "Curitiba",
+        "barrio": "Ecoville"
+      },
+      "caracteristicas": {
+        "dormitorios": ["3", "4"],
+        "tipos": ["3 dormitorios", "4 dormitorios"],
+        "metraje": "227 a 391 m²",
+        "suites": ["3", "4"]
+      },
+      "plazo_entrega": {
+        "estado": "Listo para Habitar",
+        "clases_css": ["listo-para-habitar"],
+        "texto_raw": "Pronto Para Morar"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://www.plaenge.com.br/upload/imagens/c0bdb3b8-55dd-4e43-89ac-a2f08650c0d0.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "https://www.plaenge.com.br/curitiba/signature-plaenge",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "554133171717",
+        "url": "https://api.whatsapp.com/send?phone=554133171717&text=Ola, tudo bem? Gostaria de conhecer mais sobre os imoveis em Curitiba",
+        "disponible": true
+      },
+      "categoria_sitio": "Curitiba"
+    },
+    {
+      "id": 17,
+      "nombre": "Experience",
+      "ubicacion": {
+        "comuna": "Curitiba",
+        "region": "Paraná",
+        "ciudad_filtro": "Curitiba",
+        "barrio": "Ecoville"
+      },
+      "caracteristicas": {
+        "dormitorios": ["3"],
+        "tipos": ["3 dormitorios"],
+        "metraje": "320 m²",
+        "suites": ["3"]
+      },
+      "plazo_entrega": {
+        "estado": "Listo para Habitar",
+        "clases_css": ["listo-para-habitar"],
+        "texto_raw": "Pronto Para Morar"
+      },
+      "precio": {
+        "valor": null,
+        "moneda": null,
+        "texto_completo": "Sin información"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://www.plaenge.com.br/upload/imagens/47baf6ca-3657-4ad5-95af-ac00def93434.jpg",
+      "logo": "Sin información",
+      "url_proyecto": "https://www.plaenge.com.br/curitiba/experience",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "554133171717",
+        "url": "https://api.whatsapp.com/send?phone=554133171717&text=Ola, tudo bem? Gostaria de conhecer mais sobre os imoveis em Curitiba",
+        "disponible": true
+      },
+      "categoria_sitio": "Curitiba"
+    }
+  ],
+  "resumen_por_region": {
+    "La Araucanía": {
+      "cantidad": 5,
+      "comunas": {
+        "Temuco": ["Ópera", "Cuiabá Elegance", "Soul Live Inside", "Brasilia View", "Belo Horizonte"]
+      }
+    },
+    "Metropolitana de Santiago": {
+      "cantidad": 2,
+      "comunas": {
+        "Santiago": ["Distrito Paulista II", "Distrito Paulista"]
+      }
+    },
+    "Paraná": {
+      "cantidad": 10,
+      "comunas": {
+        "Curitiba": ["Artis", "Plaenge design by Pininfarina", "Plaenge Átrio", "Horizon Ecoville", "Paseo Folloni", "Ágon Residence", "Landhaus", "Palm 235", "Signature Plaenge", "Experience"]
+      }
+    }
+  },
+  "resumen_por_categoria_sitio": {
+    "Temuco": {
+      "cantidad": 5,
+      "disponible_en_filtro": true
+    },
+    "Santiago": {
+      "cantidad": 2,
+      "disponible_en_filtro": true
+    },
+    "Curitiba": {
+      "cantidad": 10,
+      "disponible_en_filtro": true,
+      "nota": "Datos extraídos de HTML en portugués, normalizados a español"
+    }
+  },
+  "metadata": {
+    "total_propiedades_visibles": 17,
+    "total_categorias_disponibles": 3,
+    "fecha_extraccion": "2026-02-28",
+    "fuentes": [
+      "https://www.plaenge.cl/temuco",
+      "https://www.plaenge.cl/santiago",
+      "https://www.plaenge.com.br/curitiba"
+    ],
+    "nota_importante": "Unificación de datos de Chile (Temuco y Santiago) y Brasil (Curitiba). Los datos de Brasil fueron extraídos de HTML en portugués y normalizados al formato español.",
+    "formato_datos_origen": {
+      "chile": "Lista HTML con estructura: <ul> > <li> > <div class='image'> + <div class='text'>",
+      "brasil": "HTML con estructura ASP.NET: <ul class='thumbs'> > <li> > <div class='image-box'> con datos en atributos data-src y texto plano"
+    },
+    "normalizaciones_aplicadas": [
+      "Área privativa → metraje (m²)",
+      "3 e 4 dormitórios → 3 a 4 dormitorios",
+      "Lançamento → Lanzamiento",
+      "Em Construção → En Construcción",
+      "Pronto Para Morar → Listo para Habitar",
+      "Nombres de barrios mantenidos en portugués: Mercês, Ecoville, Ahú, Água Verde, Alto da Glória"
+    ],
+    "caracteristicas_especiales": [
+      "Proyecto de casas en Temuco: Belo Horizonte",
+      "Dos proyectos vendidos en Temuco con banner visual",
+      "WhatsApp regionalizado: Temuco (+56 9 9964 0999), Santiago (+56 9 7738 7193), Curitiba (+55 41 3317-1717)",
+      "Proyecto sin datos completos: Plaenge design by Pininfarina (solo lanzamiento, sin metraje ni dormitorios)",
+      "Inclusión de campo 'suites' en propiedades brasileñas donde está disponible"
+    ]
+  }
+}

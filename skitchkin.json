@@ -1,0 +1,747 @@
+{
+  "propiedades": [
+    {
+      "id": 1,
+      "nombre": "HO Home Office Apartaments",
+      "ubicacion": {
+        "comuna": "Las Condes",
+        "region": "Metropolitana de Santiago",
+        "ciudad_filtro": "Santiago",
+        "direccion": "Av. Las Condes 7039, Las Condes"
+      },
+      "caracteristicas": {
+        "dormitorios": ["1", "2"],
+        "tipos": ["Estudio", "1 dormitorio", "1 dormitorio + Home Office", "2 dormitorios"],
+        "metraje": "30,16 a 89,34 m²",
+        "banos": ["1", "2"]
+      },
+      "plazo_entrega": {
+        "estado": "Entrega Inmediata",
+        "clases_css": ["entrega-inmediata"],
+        "texto_raw": "Entrega Inmediata"
+      },
+      "precio": {
+        "valor": 6212,
+        "moneda": "UF",
+        "texto_completo": "Desde UF 6.212"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://stitchkin.cl/wp-content/uploads/2023/10/edificio-ho.jpg",
+      "logo": "https://stitchkin.cl/wp-content/uploads/2023/10/logos-proyectos_HO.png",
+      "url_proyecto": "https://stitchkin.cl/proyecto/ho-home-office-apartament/",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "56977630969",
+        "url": "https://wa.me/56977630969",
+        "disponible": true
+      },
+      "categoria_sitio": "Santiago",
+      "telefono": "+56 9 95423923",
+      "beneficios": ["Garantía de Cesantía"],
+      "folleto_digital": "https://stitchkin.cl/wp-content/uploads/2023/10/BROCHURE_HO_DIGITAL.pdf",
+      "tour_virtual": null
+    },
+    {
+      "id": 2,
+      "nombre": "LA ESPUELA",
+      "ubicacion": {
+        "comuna": "Lo Barnechea",
+        "region": "Metropolitana de Santiago",
+        "ciudad_filtro": "Santiago",
+        "direccion": "La Espuela 12600, Lo Barnechea"
+      },
+      "caracteristicas": {
+        "dormitorios": ["3"],
+        "tipos": ["3 dormitorios"],
+        "metraje": "141,13 a 257,91 m²",
+        "banos": ["3"],
+        "caracteristicas_especiales": ["Jardín privado", "Azotea panorámica"]
+      },
+      "plazo_entrega": {
+        "estado": "Entrega Inmediata",
+        "clases_css": ["entrega-inmediata"],
+        "texto_raw": "Entrega Inmediata"
+      },
+      "precio": {
+        "valor": 12277,
+        "moneda": "UF",
+        "texto_completo": "Desde UF 12.277"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://stitchkin.cl/wp-content/uploads/2023/10/la-espuela-lo-barnechea-principal-1.jpg",
+      "logo": "https://stitchkin.cl/wp-content/uploads/2023/10/logos-proyectos_LE.png",
+      "url_proyecto": "https://stitchkin.cl/proyecto/la-espuela/",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "56977630969",
+        "url": "https://wa.me/56977630969",
+        "disponible": true
+      },
+      "categoria_sitio": "Santiago",
+      "telefono": "+56 9 4909 0672",
+      "beneficios": ["10% de pie", "Garantía de Cesantía"],
+      "folleto_digital": "https://stitchkin.cl/wp-content/uploads/2023/10/BROCHURE-LAESPUELA.pdf",
+      "tour_virtual": "https://my.matterport.com/show/?m=ZTrmzGVSX26"
+    },
+    {
+      "id": 3,
+      "nombre": "VICUÑA MACKENNA",
+      "ubicacion": {
+        "comuna": "Ñuñoa",
+        "region": "Metropolitana de Santiago",
+        "ciudad_filtro": "Santiago",
+        "direccion": "Vicuña Mackenna 1194, Ñuñoa"
+      },
+      "caracteristicas": {
+        "dormitorios": ["1", "2"],
+        "tipos": ["1 dormitorio", "2 dormitorios"],
+        "metraje": "36,62 a 68 m²",
+        "banos": ["1", "2"],
+        "caracteristicas_especiales": ["Dúplex disponible", "3 locales comerciales"]
+      },
+      "plazo_entrega": {
+        "estado": "Entrega Inmediata",
+        "clases_css": ["entrega-inmediata"],
+        "texto_raw": "Entrega Inmediata"
+      },
+      "precio": {
+        "valor": 3605,
+        "moneda": "UF",
+        "texto_completo": "Desde UF 3.605"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://stitchkin.cl/wp-content/uploads/2023/10/vicuna-mackena.jpg",
+      "logo": "https://stitchkin.cl/wp-content/uploads/2023/10/logos-proyectos_VM-actualizado.png",
+      "url_proyecto": "https://stitchkin.cl/proyecto/vicuna-mackena/",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "56977630969",
+        "url": "https://wa.me/56977630969",
+        "disponible": true
+      },
+      "categoria_sitio": "Santiago",
+      "telefono": "+56 9 9630 4596",
+      "beneficios": ["10% de pie", "Garantía de Cesantía", "Ley Nº 21.543"],
+      "folleto_digital": "https://stitchkin.cl/wp-content/uploads/2023/10/BROCHURE-VM1194.pdf",
+      "tour_virtual": "https://my.matterport.com/show/?m=otXfczN627A"
+    },
+    {
+      "id": 4,
+      "nombre": "NOVUS",
+      "ubicacion": {
+        "comuna": "Macul",
+        "region": "Metropolitana de Santiago",
+        "ciudad_filtro": "Santiago",
+        "direccion": "Américo Vespucio 4455, comuna de Macul"
+      },
+      "caracteristicas": {
+        "dormitorios": ["1", "2", "3"],
+        "tipos": ["1 dormitorio", "2 dormitorios", "3 dormitorios"],
+        "metraje": "38,61 a 74,66 m²",
+        "banos": ["1", "2"],
+        "torres": ["Torre E"],
+        "etapa": "Segunda y última etapa"
+      },
+      "plazo_entrega": {
+        "estado": "Entrega Inmediata",
+        "clases_css": ["entrega-inmediata"],
+        "texto_raw": "Entrega Inmediata"
+      },
+      "precio": {
+        "valor": 2424,
+        "moneda": "UF",
+        "texto_completo": "Desde UF 2.424",
+        "referencia": "Depto 211 Torre E"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://stitchkin.cl/wp-content/uploads/2023/10/novus-principal.jpg",
+      "logo": "https://stitchkin.cl/wp-content/uploads/2023/10/logos-proyectos_N-e1701979411814.png",
+      "url_proyecto": "https://stitchkin.cl/proyecto/novus/",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "56977630969",
+        "url": "https://wa.me/56977630969",
+        "disponible": true
+      },
+      "categoria_sitio": "Santiago",
+      "telefono": "+56 9 6320 8356",
+      "beneficios": [],
+      "folleto_digital": "https://stitchkin.cl/wp-content/uploads/2023/10/BROCHURE-NOVUS.pdf",
+      "tour_virtual": [
+        "https://my.matterport.com/show/?m=SQQsstmDSzH",
+        "https://my.matterport.com/show/?m=Yk1toDKCcXG"
+      ],
+      "equipamiento": [
+        "Piscinas",
+        "Quinchos",
+        "Juegos infantiles",
+        "Sala de niños",
+        "Salón gourmet",
+        "Gimnasio",
+        "Lounge"
+      ],
+      "departamentos_detalle": {
+        "1_dormitorio": [
+          {
+            "linea": "11",
+            "total_m2": 39.49,
+            "interior_m2": 35.20,
+            "terraza_m2": 4.29,
+            "orientacion": "Sur",
+            "id_cotizacion": 657
+          },
+          {
+            "linea": "6",
+            "total_m2": 38.61,
+            "interior_m2": 35.18,
+            "terraza_m2": 3.43,
+            "orientacion": "Norte",
+            "id_cotizacion": 658
+          }
+        ],
+        "2_dormitorios": [
+          {
+            "linea": "2",
+            "total_m2": 58.78,
+            "interior_m2": 52.31,
+            "terraza_m2": 6.47,
+            "orientacion": "Sur",
+            "id_cotizacion": 659
+          },
+          {
+            "linea": "4",
+            "total_m2": 60.45,
+            "interior_m2": 53.79,
+            "terraza_m2": 6.66,
+            "orientacion": "Poniente",
+            "id_cotizacion": 660
+          },
+          {
+            "linea": "5",
+            "total_m2": 62.88,
+            "interior_m2": 56.07,
+            "terraza_m2": 6.81,
+            "orientacion": "Oriente",
+            "id_cotizacion": 661
+          },
+          {
+            "linea": "7",
+            "total_m2": 52.41,
+            "interior_m2": 46.34,
+            "terraza_m2": 6.07,
+            "orientacion": "Norte",
+            "id_cotizacion": 662
+          },
+          {
+            "linea": "9",
+            "total_m2": 61.28,
+            "interior_m2": 51.35,
+            "terraza_m2": 9.93,
+            "orientacion": "Sur",
+            "id_cotizacion": 663
+          },
+          {
+            "linea": "10",
+            "total_m2": 58.82,
+            "interior_m2": 49.37,
+            "terraza_m2": 9.45,
+            "orientacion": "Sur",
+            "id_cotizacion": 664
+          },
+          {
+            "linea": "3",
+            "total_m2": 59.26,
+            "interior_m2": 49.31,
+            "terraza_m2": 9.95,
+            "orientacion": "Poniente",
+            "id_cotizacion": 665
+          },
+          {
+            "linea": "1",
+            "total_m2": 58.79,
+            "interior_m2": 49.43,
+            "terraza_m2": 9.36,
+            "orientacion": "Sur",
+            "id_cotizacion": 666
+          }
+        ],
+        "3_dormitorios": [
+          {
+            "linea": "8",
+            "total_m2": 74.66,
+            "interior_m2": 67.37,
+            "terraza_m2": 7.29,
+            "orientacion": "Norte",
+            "id_cotizacion": 667
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "nombre": "NOVUS G",
+      "ubicacion": {
+        "comuna": "Macul",
+        "region": "Metropolitana de Santiago",
+        "ciudad_filtro": "Santiago",
+        "direccion": "Américo Vespucio 4455, comuna de Macul"
+      },
+      "caracteristicas": {
+        "dormitorios": ["1", "2", "3"],
+        "tipos": ["1 dormitorio", "2 dormitorios", "3 dormitorios"],
+        "metraje": "38,65 a 74,15 m²",
+        "banos": ["1", "2"],
+        "torres": [],
+        "etapa": "Nueva etapa"
+      },
+      "plazo_entrega": {
+        "estado": "Entrega Futura",
+        "clases_css": ["entrega_futura"],
+        "texto_raw": "Entrega Futura"
+      },
+      "precio": {
+        "valor": 2651,
+        "moneda": "UF",
+        "texto_completo": "Desde UF 2.651",
+        "referencia": null
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": null,
+      "logo": null,
+      "url_proyecto": "https://stitchkin.cl/proyecto/novus-g/",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "56977630969",
+        "url": "https://wa.me/56977630969",
+        "disponible": true
+      },
+      "categoria_sitio": "Santiago",
+      "telefono": "+56 9 6320 8356",
+      "beneficios": [],
+      "folleto_digital": null,
+      "tour_virtual": [],
+      "equipamiento": [],
+      "departamentos_detalle": {
+        "1_dormitorio": [
+          {
+            "linea": "6",
+            "total_m2": 38.65,
+            "interior_m2": 35.23,
+            "terraza_m2": 3.42,
+            "orientacion": "Norte",
+            "id_cotizacion": 2863
+          },
+          {
+            "linea": "11",
+            "total_m2": 39.34,
+            "interior_m2": 35.52,
+            "terraza_m2": 3.82,
+            "orientacion": "Sur",
+            "id_cotizacion": 2864
+          }
+        ],
+        "2_dormitorios": [
+          {
+            "linea": "1",
+            "total_m2": 58.77,
+            "interior_m2": 49.73,
+            "terraza_m2": 9.04,
+            "orientacion": "Sur",
+            "id_cotizacion": 2735
+          },
+          {
+            "linea": "2",
+            "total_m2": 58.53,
+            "interior_m2": 52.11,
+            "terraza_m2": 6.42,
+            "orientacion": "Sur",
+            "id_cotizacion": 2736
+          },
+          {
+            "linea": "3",
+            "total_m2": 59.45,
+            "interior_m2": 49.49,
+            "terraza_m2": 9.96,
+            "orientacion": "Poniente",
+            "id_cotizacion": 2737
+          },
+          {
+            "linea": "4",
+            "total_m2": 60.34,
+            "interior_m2": 53.84,
+            "terraza_m2": 6.50,
+            "orientacion": "Poniente",
+            "id_cotizacion": 2738
+          },
+          {
+            "linea": "5",
+            "total_m2": 62.84,
+            "interior_m2": 56.19,
+            "terraza_m2": 6.65,
+            "orientacion": "Oriente",
+            "id_cotizacion": 2739
+          },
+          {
+            "linea": "7",
+            "total_m2": 52.58,
+            "interior_m2": 46.50,
+            "terraza_m2": 6.08,
+            "orientacion": "Norte",
+            "id_cotizacion": 2740
+          },
+          {
+            "linea": "9",
+            "total_m2": 61.21,
+            "interior_m2": 51.36,
+            "terraza_m2": 9.85,
+            "orientacion": "Sur",
+            "id_cotizacion": 2741
+          },
+          {
+            "linea": "10",
+            "total_m2": 59.32,
+            "interior_m2": 49.36,
+            "terraza_m2": 9.96,
+            "orientacion": "Poniente",
+            "id_cotizacion": 2742
+          }
+        ],
+        "3_dormitorios": [
+          {
+            "linea": "8",
+            "total_m2": 74.15,
+            "interior_m2": 67.23,
+            "terraza_m2": 6.92,
+            "orientacion": "Norte",
+            "id_cotizacion": 2865
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "nombre": "RODRIGO DE ARAYA",
+      "ubicacion": {
+        "comuna": "Ñuñoa",
+        "region": "Metropolitana de Santiago",
+        "ciudad_filtro": "Santiago",
+        "direccion": "Rodrigo de Araya 1410, Ñuñoa"
+      },
+      "caracteristicas": {
+        "dormitorios": ["1", "2"],
+        "tipos": ["1 dormitorio", "2 dormitorios"],
+        "metraje": "38,84 a 71,91 m²",
+        "banos": ["1", "2"]
+      },
+      "plazo_entrega": {
+        "estado": "Entrega Inmediata",
+        "clases_css": ["entrega-inmediata"],
+        "texto_raw": "Entrega Inmediata"
+      },
+      "precio": {
+        "valor": 3356,
+        "moneda": "UF",
+        "texto_completo": "Desde UF 3.356"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://stitchkin.cl/wp-content/uploads/2023/10/edificio-rodrigo-de-araya-1410-nunoa-imagen-principal.jpg",
+      "logo": "https://stitchkin.cl/wp-content/uploads/2023/10/logos-proyectos_RODA-actualizado.png",
+      "url_proyecto": "https://stitchkin.cl/proyecto/rodrigo-de-araya/",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "56949418894",
+        "url": "https://wa.me/56949418894",
+        "disponible": true
+      },
+      "categoria_sitio": "Santiago",
+      "telefono": "+56 9 4941 8894",
+      "beneficios": ["Garantía de Cesantía", "10% de pie", "Ley Nº 21.543"],
+      "folleto_digital": "https://stitchkin.cl/wp-content/uploads/2023/10/BROCHURE-RODRIGOARAYA-1.pdf",
+      "tour_virtual": "https://www.theasys.io/viewer/i2xWr6ZxQIBkiCX943piPws66XoKwk/",
+      "equipamiento": [
+        "Gimnasio equipado",
+        "Salón gourmet",
+        "Sala de juegos",
+        "Zona de lavandería",
+        "Piscina de más de 20 mts. aprox. de largo",
+        "Piscina para niños",
+        "Sala multiuso",
+        "Sala de niños",
+        "Sala de estar",
+        "5 Quinchos panorámicos en azotea"
+      ],
+      "departamentos_detalle": {
+        "1_dormitorio": [
+          {
+            "linea": "1003",
+            "total_m2": 39.36,
+            "interior_m2": 33.64,
+            "terraza_m2": 5.72,
+            "orientacion": "Oriente",
+            "id_cotizacion": 2880
+          },
+          {
+            "linea": "12",
+            "total_m2": 38.84,
+            "interior_m2": 34.01,
+            "terraza_m2": 4.83,
+            "orientacion": "Poniente",
+            "id_cotizacion": 667
+          },
+          {
+            "linea": "13",
+            "total_m2": 40.15,
+            "interior_m2": 34.93,
+            "terraza_m2": 5.22,
+            "orientacion": "Poniente",
+            "id_cotizacion": 2879
+          }
+        ],
+        "2_dormitorios": [
+          {
+            "linea": "6",
+            "total_m2": 71.91,
+            "interior_m2": 63.44,
+            "terraza_m2": 8.47,
+            "orientacion": "Sur",
+            "id_cotizacion": 672
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "nombre": "ELEUTERIO RAMÍREZ",
+      "ubicacion": {
+        "comuna": "Santiago Centro",
+        "region": "Metropolitana de Santiago",
+        "ciudad_filtro": "Santiago",
+        "direccion": "Eleuterio Ramírez 645, Santiago Centro"
+      },
+      "caracteristicas": {
+        "dormitorios": ["0", "1", "2"],
+        "tipos": ["Estudio", "1 dormitorio", "2 dormitorios"],
+        "metraje": "30,39 a 59,47 m²",
+        "banos": ["1", "2"]
+      },
+      "plazo_entrega": {
+        "estado": "Entrega Inmediata",
+        "clases_css": ["entrega-inmediata"],
+        "texto_raw": "Entrega Inmediata"
+      },
+      "precio": {
+        "valor": 2665,
+        "moneda": "UF",
+        "texto_completo": "Desde UF 2.665"
+      },
+      "estado_proyecto": {
+        "activo": true,
+        "vendido": false,
+        "proximamente": false,
+        "etiqueta": null
+      },
+      "imagen_principal": "https://stitchkin.cl/wp-content/uploads/2023/10/STCHK_ER_WIDEJULbaja1.mp4",
+      "logo": "https://stitchkin.cl/wp-content/uploads/2023/10/logos-proyectos_ER-e1701979085738.png",
+      "url_proyecto": "https://stitchkin.cl/proyecto/eleuterio-ramirez-645/",
+      "eficiencia_energetica": false,
+      "whatsapp": {
+        "numero": "56933707366",
+        "url": "https://wa.me/56933707366",
+        "disponible": true
+      },
+      "categoria_sitio": "Santiago",
+      "telefono": "+56 9 3370 7366",
+      "beneficios": ["Garantía de Cesantía", "10% de pie", "Ley Nº 21.543"],
+      "folleto_digital": "https://stitchkin.cl/wp-content/uploads/2023/10/FOLLETO_INTERACTIVO_ELEUTERIO_RAMIREZ_WEB_24-08-211.pdf",
+      "tour_virtual": null,
+      "equipamiento": [
+        "Quinchos con vista panorámica",
+        "Piscina en azotea",
+        "Salón gourmet",
+        "Amplio cowork",
+        "Gimnasio",
+        "Pérgola en el patio",
+        "Bicicleteros",
+        "Zona e-commerce"
+      ],
+      "departamentos_detalle": {
+        "estudio": [
+          {
+            "linea": "16",
+            "total_m2": 30.39,
+            "interior_m2": 25.96,
+            "terraza_m2": 4.43,
+            "orientacion": "Sur",
+            "id_cotizacion": 2878
+          }
+        ],
+        "1_dormitorio": [
+          {
+            "linea": "14",
+            "total_m2": 40.64,
+            "interior_m2": 37.96,
+            "terraza_m2": 2.68,
+            "orientacion": "Norte",
+            "id_cotizacion": 2653
+          },
+          {
+            "linea": "16",
+            "total_m2": 40.93,
+            "interior_m2": 35.78,
+            "terraza_m2": 5.15,
+            "orientacion": "Norte",
+            "id_cotizacion": 2877
+          }
+        ],
+        "2_dormitorios": [
+          {
+            "linea": "17",
+            "total_m2": 45.66,
+            "interior_m2": 38.07,
+            "terraza_m2": 7.59,
+            "orientacion": "Sur",
+            "id_cotizacion": 2876
+          },
+          {
+            "linea": "18",
+            "total_m2": 49.38,
+            "interior_m2": 49.38,
+            "terraza_m2": 0,
+            "orientacion": "Sur",
+            "id_cotizacion": 2667
+          },
+          {
+            "linea": "19",
+            "total_m2": 51.70,
+            "interior_m2": 44.95,
+            "terraza_m2": 6.75,
+            "orientacion": "Sur",
+            "id_cotizacion": 2875
+          },
+          {
+            "linea": "17",
+            "total_m2": 51.88,
+            "interior_m2": 51.88,
+            "terraza_m2": 0,
+            "orientacion": "Sur",
+            "id_cotizacion": 2669
+          },
+          {
+            "linea": "20",
+            "total_m2": 53.43,
+            "interior_m2": 41.35,
+            "terraza_m2": 12.08,
+            "orientacion": "Sur-Oriente",
+            "id_cotizacion": 2670
+          },
+          {
+            "linea": "17",
+            "total_m2": 59.47,
+            "interior_m2": 51.88,
+            "terraza_m2": 7.59,
+            "orientacion": "Sur",
+            "id_cotizacion": 2874
+          }
+        ]
+      }
+    }
+  ],
+  "resumen_por_region": {
+    "Metropolitana de Santiago": {
+      "cantidad": 7,
+      "comunas": {
+        "Las Condes": ["HO Home Office Apartaments"],
+        "Lo Barnechea": ["LA ESPUELA"],
+        "Ñuñoa": ["VICUÑA MACKENNA", "RODRIGO DE ARAYA"],
+        "Macul": ["NOVUS", "NOVUS G"],
+        "Santiago Centro": ["ELEUTERIO RAMÍREZ"]
+      }
+    }
+  },
+  "resumen_por_categoria_sitio": {
+    "Santiago": {
+      "cantidad": 7,
+      "disponible_en_filtro": true
+    }
+  },
+  "metadata": {
+    "total_propiedades_visibles": 7,
+    "total_categorias_disponibles": 1,
+    "fecha_extraccion": "2026-02-28",
+    "fuentes": [
+      "https://stitchkin.cl/proyecto/ho-home-office-apartament/",
+      "https://stitchkin.cl/proyecto/la-espuela/",
+      "https://stitchkin.cl/proyecto/vicuna-mackena/",
+      "https://stitchkin.cl/proyecto/novus/",
+      "https://stitchkin.cl/proyecto/novus-g/",
+      "https://stitchkin.cl/proyecto/rodrigo-de-araya/",
+      "https://stitchkin.cl/proyecto/eleuterio-ramirez-645/"
+    ],
+    "desarrollador": "Stitchkin Inmobiliaria",
+    "nota_importante": "Siete proyectos activos de Stitchkin Inmobiliaria. Se han agregado los proyectos RODRIGO DE ARAYA y ELEUTERIO RAMÍREZ a la lista original. Destacar diferencia entre NOVUS (entrega inmediata, segunda etapa) y NOVUS G (entrega futura, nueva etapa) - ambos en misma dirección pero proyectos separados.",
+    "proyectos_macul": {
+      "novus": {
+        "id": 4,
+        "post_id": 313,
+        "entrega": "Inmediata",
+        "precio_uf": 2424,
+        "caracteristicas": "Segunda y última etapa, Torre E, 11 unidades, equipamiento completo"
+      },
+      "novus_g": {
+        "id": 5,
+        "post_id": 4136,
+        "entrega": "Futura",
+        "precio_uf": 2651,
+        "caracteristicas": "Nueva etapa, 11 unidades, sin folleto ni tour virtual"
+      }
+    },
+    "normalizaciones_aplicadas": [
+      "Precios convertidos a formato numérico UF",
+      "Metrajes unificados en formato 'min a max m²'",
+      "Direcciones completas incluidas en ubicación",
+      "Teléfonos de contacto específicos por proyecto",
+      "IDs de cotización mapeados por tipología",
+      "Metrajes desglosados en interior + terraza para NOVUS, NOVUS G, RODRIGO DE ARAYA y ELEUTERIO RAMÍREZ"
+    ],
+    "caracteristicas_especiales": [
+      "HO Home Office Apartaments: Único proyecto con tipología 'Estudio' y 'Home Office'",
+      "LA ESPUELA: Proyecto de mayor metraje (hasta 257,91 m² con azotea panorámica)",
+      "VICUÑA MACKENNA: Incluye locales comerciales y opción dúplex",
+      "NOVUS: Entrega inmediata, 2 tours virtuales Matterport, equipamiento completo",
+      "NOVUS G: Entrega futura, misma dirección que NOVUS pero proyecto independiente",
+      "RODRIGO DE ARAYA: Proyecto en Ñuñoa con amplio equipamiento y tour virtual",
+      "ELEUTERIO RAMÍREZ: Ubicado en Santiago Centro, incluye tipología Estudio y amplio equipamiento en azotea",
+      "Todos los proyectos comparten el mismo número de WhatsApp general: +56 9 7763 0969, a excepción de RODRIGO DE ARAYA y ELEUTERIO RAMÍREZ que tienen sus propios contactos directos"
+    ]
+  }
+}

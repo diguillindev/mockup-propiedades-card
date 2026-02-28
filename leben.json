@@ -1,0 +1,544 @@
+{
+ "propiedades": [
+   {
+     "id": 1,
+     "nombre": "Edificio Nórdico",
+     "ubicacion": {
+       "comuna": "Puerto Varas",
+       "region": "Los Lagos"
+     },
+     "caracteristicas": {
+       "dormitorios": ["1", "2", "3"],
+       "tipos": ["1 Dorm.", "2 Dorms.", "3 Dorms."]
+     },
+     "plazo_entrega": {
+       "estado": "Futuro Proyecto",
+       "clases_css": ["futuro-proyecto"]
+     },
+     "precio": {
+       "valor": 4746,
+       "moneda": "UF",
+       "texto_completo": "Desde UF 4.746*"
+     },
+     "estado_proyecto": {
+       "activo": true,
+       "vendido": false,
+       "proximamente": true,
+       "etiqueta": "PRÓXIMAMENTE"
+     },
+     "imagen_principal": "https://ileben.cl/wp-content/uploads/2025/10/PERSPECTIVA-NORDICO-558x485-1.jpg",
+     "logo": "https://ileben.cl/wp-content/uploads/2026/01/Logo_NORDICO_Blanco.svg",
+     "url_proyecto": "https://nordico.ileben.cl/",
+     "eficiencia_energetica": false,
+     "whatsapp": null
+   },
+   {
+     "id": 2,
+     "nombre": "Edificio Santo",
+     "ubicacion": {
+       "comuna": "Santiago Centro",
+       "region": "Metropolitana de Santiago"
+     },
+     "caracteristicas": {
+       "dormitorios": ["2"],
+       "tipos": ["2 Dorms."]
+     },
+     "plazo_entrega": {
+       "estado": "Piloto / Entrega Inmediata",
+       "clases_css": ["piloto", "entrega-inmediata"]
+     },
+     "precio": {
+       "valor": 3756,
+       "moneda": "UF",
+       "texto_completo": "Desde UF 3.756*"
+     },
+     "estado_proyecto": {
+       "activo": true,
+       "vendido": false,
+       "proximamente": false,
+       "etiqueta": null
+     },
+     "imagen_principal": "https://ileben.cl/wp-content/uploads/2021/02/santo-vb.jpg",
+     "logo": "https://ileben.cl/wp-content/uploads/2021/02/logo-santo.svg",
+     "url_proyecto": "https://edificiosanto.ileben.cl/",
+     "eficiencia_energetica": true,
+     "whatsapp": null
+   },
+   {
+     "id": 3,
+     "nombre": "Edificio Argomedo",
+     "ubicacion": {
+       "comuna": "Santiago Centro",
+       "region": "Metropolitana de Santiago"
+     },
+     "caracteristicas": {
+       "dormitorios": ["1", "2"],
+       "tipos": ["1 Dorm.", "2 Dorms."]
+     },
+     "plazo_entrega": {
+       "estado": "Piloto / Entrega Inmediata",
+       "clases_css": ["piloto", "entrega-inmediata"]
+     },
+     "precio": {
+       "valor": 3790,
+       "moneda": "UF",
+       "texto_completo": "Desde UF 3.790*"
+     },
+     "estado_proyecto": {
+       "activo": true,
+       "vendido": false,
+       "proximamente": false,
+       "etiqueta": null
+     },
+     "imagen_principal": "https://ileben.cl/wp-content/uploads/2021/02/Argomedo-home.jpg",
+     "logo": "https://ileben.cl/wp-content/uploads/2021/02/logo-argomedo.svg",
+     "url_proyecto": "https://edificioargomedo.ileben.cl/",
+     "eficiencia_energetica": true,
+     "whatsapp": null
+   },
+   {
+     "id": 4,
+     "nombre": "Edificio Living Town",
+     "ubicacion": {
+       "comuna": "Santiago Centro",
+       "region": "Metropolitana de Santiago"
+     },
+     "caracteristicas": {
+       "dormitorios": ["1", "2"],
+       "tipos": ["1 Dorm.", "2 Dorms."]
+     },
+     "plazo_entrega": {
+       "estado": "Venta en Verde",
+       "clases_css": ["venta-en-verde"]
+     },
+     "precio": {
+       "valor": 2812,
+       "moneda": "UF",
+       "texto_completo": "Desde UF 2.812*"
+     },
+     "estado_proyecto": {
+       "activo": true,
+       "vendido": false,
+       "proximamente": false,
+       "etiqueta": null
+     },
+     "imagen_principal": "https://ileben.cl/wp-content/uploads/2023/05/LT-Home-leben.jpg",
+     "logo": "https://ileben.cl/wp-content/uploads/2023/05/logo-living-town-horizontal.svg",
+     "url_proyecto": "https://livingtown.ileben.cl/",
+     "eficiencia_energetica": false,
+     "whatsapp": null
+   },
+   {
+     "id": 5,
+     "nombre": "Edificio Indi",
+     "ubicacion": {
+       "comuna": "Independencia",
+       "region": "Metropolitana de Santiago"
+     },
+     "caracteristicas": {
+       "dormitorios": ["1", "2"],
+       "tipos": ["1 Dorm.", "2 Dorms."]
+     },
+     "plazo_entrega": {
+       "estado": "Piloto / Entrega Inmediata",
+       "clases_css": ["piloto", "entrega-inmediata"]
+     },
+     "precio": {
+       "valor": 2484,
+       "moneda": "UF",
+       "texto_completo": "Desde UF 2.484*"
+     },
+     "estado_proyecto": {
+       "activo": true,
+       "vendido": false,
+       "proximamente": false,
+       "etiqueta": null
+     },
+     "imagen_principal": "https://ileben.cl/wp-content/uploads/2021/02/indi-home-vb.jpg",
+     "logo": "https://ileben.cl/wp-content/uploads/2021/02/logo-indi.svg",
+     "url_proyecto": "https://indi.ileben.cl/",
+     "eficiencia_energetica": true,
+     "whatsapp": null
+   },
+   {
+     "id": 6,
+     "nombre": "Edificio Okinawa",
+     "ubicacion": {
+       "comuna": "La Florida",
+       "region": "Metropolitana de Santiago"
+     },
+     "caracteristicas": {
+       "dormitorios": ["1"],
+       "tipos": ["1 Dorm."]
+     },
+     "plazo_entrega": {
+       "estado": "Piloto / Entrega Inmediata",
+       "clases_css": ["piloto", "entrega-inmediata"]
+     },
+     "precio": {
+       "valor": 3090,
+       "moneda": "UF",
+       "texto_completo": "Desde UF 3.090*"
+     },
+     "estado_proyecto": {
+       "activo": false,
+       "vendido": true,
+       "proximamente": false,
+       "etiqueta": "PROYECTO VENDIDO"
+     },
+     "imagen_principal": "https://ileben.cl/wp-content/uploads/2021/02/Okinawa-557x485-1.jpg",
+     "logo": "https://ileben.cl/wp-content/uploads/2021/02/logo-okinawa.svg",
+     "url_proyecto": "https://okinawa.ileben.cl/",
+     "eficiencia_energetica": true,
+     "whatsapp": null
+   },
+   {
+     "id": 7,
+     "nombre": "Edificio Mood",
+     "ubicacion": {
+       "comuna": "La Florida",
+       "region": "Metropolitana de Santiago"
+     },
+     "caracteristicas": {
+       "dormitorios": ["1", "2"],
+       "tipos": ["1 Dorm.", "2 Dorms."]
+     },
+     "plazo_entrega": {
+       "estado": "Piloto / Entrega Inmediata",
+       "clases_css": ["piloto", "entrega-inmediata"]
+     },
+     "precio": {
+       "valor": 2750,
+       "moneda": "UF",
+       "texto_completo": "Desde UF 2.750*"
+     },
+     "estado_proyecto": {
+       "activo": true,
+       "vendido": false,
+       "proximamente": false,
+       "etiqueta": null
+     },
+     "imagen_principal": "https://ileben.cl/wp-content/uploads/2022/10/1-piloto-La-Florida-Leben1.jpg",
+     "logo": "https://ileben.cl/wp-content/uploads/2022/10/logo-mood.svg",
+     "url_proyecto": "https://mood.ileben.cl/",
+     "eficiencia_energetica": true,
+     "whatsapp": null
+   },
+   {
+     "id": 8,
+     "nombre": "Edificio Own",
+     "ubicacion": {
+       "comuna": "Ñuñoa",
+       "region": "Metropolitana de Santiago"
+     },
+     "caracteristicas": {
+       "dormitorios": ["1", "2"],
+       "tipos": ["1 Dorm.", "2 Dorms."]
+     },
+     "plazo_entrega": {
+       "estado": "Piloto / Entrega Inmediata",
+       "clases_css": ["piloto", "entrega-inmediata"]
+     },
+     "precio": {
+       "valor": 3990,
+       "moneda": "UF",
+       "texto_completo": "Desde UF 3.990*"
+     },
+     "estado_proyecto": {
+       "activo": true,
+       "vendido": false,
+       "proximamente": false,
+       "etiqueta": null
+     },
+     "imagen_principal": "https://ileben.cl/wp-content/uploads/2021/02/OWM_557X485.jpg",
+     "logo": "https://ileben.cl/wp-content/uploads/2021/02/logo-own.svg",
+     "url_proyecto": "https://own.ileben.cl/",
+     "eficiencia_energetica": true,
+     "whatsapp": {
+       "numero": "56926363469",
+       "mensaje": "¡Hola! ¿Me ayudas con más información del edificio Own?",
+       "url": "https://wa.me/56926363469?text=%C2%A1Hola%21+%C2%BFMe+ayudas+con+m%C3%A1s+informaci%C3%B3n+del+edificio+Own%3F"
+     }
+   },
+   {
+     "id": 9,
+     "nombre": "Edificio Capitanes",
+     "ubicacion": {
+       "comuna": "Providencia",
+       "region": "Metropolitana de Santiago"
+     },
+     "caracteristicas": {
+       "dormitorios": ["2", "3"],
+       "tipos": ["2 Dorms.", "3 Dorms."]
+     },
+     "plazo_entrega": {
+       "estado": "Piloto / Pronta Entrega",
+       "clases_css": ["piloto", "pronta-entrega"]
+     },
+     "precio": {
+       "valor": 6990,
+       "moneda": "UF",
+       "texto_completo": "Desde UF 6.990*"
+     },
+     "estado_proyecto": {
+       "activo": true,
+       "vendido": false,
+       "proximamente": false,
+       "etiqueta": null
+     },
+     "imagen_principal": "https://ileben.cl/wp-content/uploads/2021/02/listado_capitanesc.jpg",
+     "logo": "https://ileben.cl/wp-content/uploads/2021/02/logo-capitanes.svg",
+     "url_proyecto": "https://capitanes.ileben.cl/",
+     "eficiencia_energetica": true,
+     "whatsapp": {
+       "numero": "56939132274",
+       "mensaje": "¡Hola! ¿Me ayudas con más información del edificio Capitanes?",
+       "url": "https://wa.me/56939132274?text=%C2%A1Hola%21+%C2%BFMe+ayudas+con+m%C3%A1s+informaci%C3%B3n+del+edificio+Capitanes%3F"
+     }
+   },
+   {
+     "id": 10,
+     "nombre": "Edificio Suecia",
+     "ubicacion": {
+       "comuna": "Providencia",
+       "region": "Metropolitana de Santiago"
+     },
+     "caracteristicas": {
+       "dormitorios": ["2", "3"],
+       "tipos": ["2 Dorms.", "3 Dorms."]
+     },
+     "plazo_entrega": {
+       "estado": "Piloto / Entrega Inmediata",
+       "clases_css": ["piloto", "entrega-inmediata"]
+     },
+     "precio": {
+       "valor": 7844,
+       "moneda": "UF",
+       "texto_completo": "Desde UF 7.844*"
+     },
+     "estado_proyecto": {
+       "activo": true,
+       "vendido": false,
+       "proximamente": false,
+       "etiqueta": null
+     },
+     "imagen_principal": "https://ileben.cl/wp-content/uploads/2021/02/suecia-home-1.jpg",
+     "logo": "https://ileben.cl/wp-content/uploads/2021/02/logo-suecia.svg",
+     "url_proyecto": "https://suecia.ileben.cl/",
+     "eficiencia_energetica": true,
+     "whatsapp": {
+       "numero": "56939132274",
+       "mensaje": "¡Hola! ¿Me ayudas con más información del edificio Suecia?",
+       "url": "https://wa.me/56939132274?text=%C2%A1Hola%21+%C2%BFMe+ayudas+con+m%C3%A1s+informaci%C3%B3n+del+edificio+Suecia%3F"
+     }
+   },
+   {
+     "id": 11,
+     "nombre": "Edificio Baum",
+     "ubicacion": {
+       "comuna": "La Florida",
+       "region": "Metropolitana de Santiago"
+     },
+     "caracteristicas": {
+       "dormitorios": ["1", "2"],
+       "tipos": ["1 Dorm.", "2 Dorms."]
+     },
+     "plazo_entrega": {
+       "estado": "Venta en Blanco",
+       "clases_css": ["venta-en-blanco"]
+     },
+     "precio": {
+       "valor": 2844,
+       "moneda": "UF",
+       "texto_completo": "Desde UF 2.844*"
+     },
+     "estado_proyecto": {
+       "activo": true,
+       "vendido": false,
+       "proximamente": false,
+       "etiqueta": null
+     },
+     "imagen_principal": "https://ileben.cl/wp-content/uploads/2024/05/baum_bg1.jpg",
+     "logo": "https://ileben.cl/wp-content/uploads/2024/05/logo-baum-final2.png",
+     "url_proyecto": "https://baum.ileben.cl/",
+     "eficiencia_energetica": false,
+     "whatsapp": {
+       "numero": "56934424448",
+       "mensaje": "¡Hola! ¿Me ayudas con más información del edificio Baum?",
+       "url": "https://wa.me/56934424448?text=%C2%A1Hola%21+%C2%BFMe+ayudas+con+m%C3%A1s+informaci%C3%B3n+del+edificio+Baum%3F"
+     }
+   },
+   {
+     "id": 12,
+     "nombre": "Edificio Parque Germania",
+     "ubicacion": {
+       "comuna": "Puerto Montt",
+       "region": "Los Lagos"
+     },
+     "caracteristicas": {
+       "dormitorios": ["0", "1", "2", "3"],
+       "tipos": ["Studio", "1 Dorm.", "2 Dorms.", "3 Dorms.", "Dúplex"],
+       "tipos_especiales": ["Studio", "Dúplex"]
+     },
+     "plazo_entrega": {
+       "estado": "Piloto / Entrega Inmediata",
+       "clases_css": ["piloto", "entrega-inmediata"]
+     },
+     "precio": {
+       "valor": 2799,
+       "moneda": "UF",
+       "texto_completo": "Desde UF 2.799*"
+     },
+     "estado_proyecto": {
+       "activo": true,
+       "vendido": false,
+       "proximamente": false,
+       "etiqueta": null
+     },
+     "imagen_principal": "https://ileben.cl/wp-content/uploads/2023/10/widu_lgpm_-20-c11.jpg",
+     "logo": "https://ileben.cl/wp-content/uploads/2023/10/BN_esepe.png",
+     "url_proyecto": "https://parquegermania.ileben.cl/",
+     "eficiencia_energetica": false,
+     "whatsapp": null
+   },
+   {
+     "id": 13,
+     "nombre": "Edificio Bold",
+     "ubicacion": {
+       "comuna": "Valdivia",
+       "region": "Los Ríos"
+     },
+     "caracteristicas": {
+       "dormitorios": ["1", "2"],
+       "tipos": ["1 Dorm.", "2 Dorms."]
+     },
+     "plazo_entrega": {
+       "estado": "Piloto / Pronta Entrega",
+       "clases_css": ["piloto", "pronta-entrega"]
+     },
+     "precio": {
+       "valor": 3332,
+       "moneda": "UF",
+       "texto_completo": "Desde UF 3.332*"
+     },
+     "estado_proyecto": {
+       "activo": true,
+       "vendido": false,
+       "proximamente": false,
+       "etiqueta": null
+     },
+     "imagen_principal": "https://ileben.cl/wp-content/uploads/2021/02/Diseno-sin-titulo1.jpg",
+     "logo": "https://ileben.cl/wp-content/uploads/2021/02/logo-bold.svg",
+     "url_proyecto": "https://bold.ileben.cl/",
+     "eficiencia_energetica": false,
+     "whatsapp": {
+       "numero": "56977082441",
+       "mensaje": "¡Hola! ¿Me ayudas con más información del edificio Bold?",
+       "url": "https://wa.me/56977082441?text=%C2%A1Hola%21+%C2%BFMe+ayudas+con+m%C3%A1s+informaci%C3%B3n+del+edificio+Bold%3F"
+     }
+   },
+   {
+     "id": 14,
+     "nombre": "Edificio Indigo",
+     "ubicacion": {
+       "comuna": "Puerto Varas",
+       "region": "Los Lagos"
+     },
+     "caracteristicas": {
+       "dormitorios": ["2", "3"],
+       "tipos": ["2 Dorms.", "3 Dorms."]
+     },
+     "plazo_entrega": {
+       "estado": "Piloto / Entrega Inmediata",
+       "clases_css": ["piloto", "entrega-inmediata"]
+     },
+     "precio": {
+       "valor": 8460,
+       "moneda": "UF",
+       "texto_completo": "Desde UF 8.460*"
+     },
+     "estado_proyecto": {
+       "activo": true,
+       "vendido": false,
+       "proximamente": false,
+       "etiqueta": null
+     },
+     "imagen_principal": "https://ileben.cl/wp-content/uploads/2021/02/piloto_indigo.jpg",
+     "logo": "https://ileben.cl/wp-content/uploads/2021/02/logo-indigo.svg",
+     "url_proyecto": "https://indigo.ileben.cl/",
+     "eficiencia_energetica": true,
+     "whatsapp": {
+       "numero": "56942221542",
+       "mensaje": "¡Hola! ¿Me ayudas con más información del edificio Indigo?",
+       "url": "https://wa.me/56942221542?text=%C2%A1Hola%21+%C2%BFMe+ayudas+con+m%C3%A1s+informaci%C3%B3n+del+edificio+Indigo%3F"
+     }
+   },
+   {
+     "id": 15,
+     "nombre": "Edificio INN",
+     "ubicacion": {
+       "comuna": "Puerto Varas",
+       "region": "Los Lagos"
+     },
+     "caracteristicas": {
+       "dormitorios": ["2", "3", "4"],
+       "tipos": ["2 Dorms.", "3 Dorms.", "4 Dorms."]
+     },
+     "plazo_entrega": {
+       "estado": "Venta en Verde / Piloto",
+       "clases_css": ["venta-en-verde", "piloto"]
+     },
+     "precio": {
+       "valor": 8490,
+       "moneda": "UF",
+       "texto_completo": "Desde UF 8.490*"
+     },
+     "estado_proyecto": {
+       "activo": true,
+       "vendido": false,
+       "proximamente": false,
+       "etiqueta": null
+     },
+     "imagen_principal": "https://ileben.cl/wp-content/uploads/2021/04/Piloto_Inn.jpg",
+     "logo": "https://ileben.cl/wp-content/uploads/2021/04/logo-inn.svg",
+     "url_proyecto": "https://innpuertochico.ileben.cl/",
+     "eficiencia_energetica": false,
+     "whatsapp": {
+       "numero": "56934204833",
+       "mensaje": "¡Hola! ¿Me ayudas con más información del edificio INN?",
+       "url": "https://wa.me/56934204833?text=%C2%A1Hola%21+%C2%BFMe+ayudas+con+m%C3%A1s+informaci%C3%B3n+del+edificio+INN%3F"
+     }
+   }
+ ],
+ "resumen_por_region": {
+   "Metropolitana de Santiago": {
+     "cantidad": 9,
+     "comunas": {
+       "Santiago Centro": ["Edificio Santo", "Edificio Argomedo", "Edificio Living Town"],
+       "Independencia": ["Edificio Indi"],
+       "La Florida": ["Edificio Okinawa", "Edificio Mood", "Edificio Baum"],
+       "Ñuñoa": ["Edificio Own"],
+       "Providencia": ["Edificio Capitanes", "Edificio Suecia"]
+     }
+   },
+   "Los Lagos": {
+     "cantidad": 4,
+     "comunas": {
+       "Puerto Varas": ["Edificio Nórdico", "Edificio Indigo", "Edificio INN"],
+       "Puerto Montt": ["Edificio Parque Germania"]
+     }
+   },
+   "Los Ríos": {
+     "cantidad": 1,
+     "comunas": {
+       "Valdivia": ["Edificio Bold"]
+     }
+   }
+ },
+ "metadata": {
+   "total_propiedades": 15,
+   "fecha_extraccion": "2026-02-28",
+   "fuente": "https://ileben.cl/",
+   "nota_legal": "Los valores están expresados en UF (Unidad de Fomento) y son referenciales sujetos a confirmación con área de ventas. Los precios incluyen asterisco (*) indicando condiciones especiales."
+ }
+}
