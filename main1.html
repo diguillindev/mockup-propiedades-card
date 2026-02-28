@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Catálogo de Propiedades</title>
     <style>
         * {
             margin: 0;
@@ -34,83 +34,63 @@
             margin-bottom: 30px;
             color: #475569;
             font-size: 1.1rem;
-            font-weight: 500;
         }
 
         .filtros-container {
             display: flex;
             flex-wrap: wrap;
-            gap: 12px;
+            gap: 15px;
             margin-bottom: 40px;
             padding: 25px;
             background: white;
             border-radius: 20px;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
             justify-content: center;
-            align-items: center;
         }
 
-        .region-btn {
-            padding: 12px 24px;
-            border: 2px solid #3b82f6;
-            border-radius: 40px;
-            background: transparent;
-            color: #3b82f6;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s;
+        .filtros-container input {
+            padding: 12px 16px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
             font-size: 14px;
-            min-width: 160px;
+            min-width: 150px;
+            transition: border-color 0.2s;
         }
 
-        .region-btn:hover {
-            background: #3b82f6;
-            color: white;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
-        }
-
-        .region-btn.active {
-            background: #3b82f6;
-            color: white;
+        .filtros-container input:focus {
+            outline: none;
             border-color: #3b82f6;
         }
 
-        .region-btn.brasil {
-            border-color: #fbbf24;
-            color: #fbbf24;
-        }
-
-        .region-btn.brasil:hover {
-            background: #fbbf24;
-            color: #1e293b;
-            box-shadow: 0 4px 12px rgba(251, 191, 36, 0.3);
-        }
-
-        .region-btn.brasil.active {
-            background: #fbbf24;
-            color: #1e293b;
-            border-color: #fbbf24;
-        }
-
-        .btn-limpiar {
+        .filtros-container button {
             padding: 12px 24px;
-            border: 2px solid #94a3b8;
-            border-radius: 40px;
-            background: transparent;
-            color: #64748b;
+            border: none;
+            border-radius: 12px;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.2s;
-            font-size: 14px;
-            min-width: 160px;
-            margin-left: 10px;
+            transition: transform 0.1s, background-color 0.2s;
         }
 
-        .btn-limpiar:hover {
-            background: #94a3b8;
+        .filtros-container button:active {
+            transform: scale(0.95);
+        }
+
+        #btn-filtrar {
+            background: #3b82f6;
             color: white;
-            border-color: #94a3b8;
+        }
+
+        #btn-filtrar:hover {
+            background: #2563eb;
+        }
+
+        #btn-limpiar {
+            background: #e2e8f0;
+            color: #1e293b;
+        }
+
+        #btn-limpiar:hover {
+            background: #cbd5e1;
         }
 
         .propiedades-grid {
@@ -164,7 +144,6 @@
             color: #1e293b;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             z-index: 2;
-            text-transform: capitalize;
         }
 
         .propiedad-pais {
@@ -278,15 +257,13 @@
             color: #ef4444;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 640px) {
             .filtros-container {
                 flex-direction: column;
-                padding: 20px;
             }
             
-            .region-btn, .btn-limpiar {
+            .filtros-container input {
                 width: 100%;
-                margin-left: 0;
             }
             
             h1 {
@@ -297,15 +274,16 @@
 </head>
 <body>
     <div class="container">
-    
+        <h1>🏠 Catálogo de Propiedades</h1>
         
         <div class="filtros-container">
-            <button class="region-btn" data-region="Metropolitana de Santiago">Región Metropolitana</button>
-            <button class="region-btn" data-region="Los Ríos">Región de Los Ríos</button>
-            <button class="region-btn" data-region="Los Lagos">Región de Los Lagos</button>
-            <button class="region-btn" data-region="La Araucanía">Araucanía</button>
-            <button class="region-btn brasil" data-region="Brasil">Brasil 🇧🇷</button>
-            <button class="btn-limpiar" id="btn-limpiar">Mostrar Todas</button>
+            <input type="number" id="filtro-precio-min" placeholder="Precio min UF" step="0.01">
+            <input type="number" id="filtro-precio-max" placeholder="Precio max UF" step="0.01">
+            <input type="number" id="filtro-habitaciones" placeholder="Habitaciones min">
+            <input type="number" id="filtro-banos" placeholder="Baños min">
+            <input type="number" id="filtro-metros" placeholder="M² min" step="0.01">
+            <button id="btn-filtrar">Filtrar 🔍</button>
+            <button id="btn-limpiar">Limpiar ✨</button>
         </div>
 
         <div id="stats" class="stats"></div>
@@ -316,7 +294,7 @@
     </div>
 
     <script>
-        // Datos directos del JSON unificado (nativainversiones.json)
+        // DATOS DE LAS PROPIEDADES (39 en total)
         const propiedades = [
             // LEBEN (ids 1-15)
             { id: 1, direccion: "Puerto Varas, Los Lagos", precio_uf: 4746, banios: "FD", habitaciones: 3, metros_cuadrados: "FD", fotografia: "https://ileben.cl/wp-content/uploads/2025/10/PERSPECTIVA-NORDICO-558x485-1.jpg", region: "Los Lagos", pais: "Chile", inmobiliaria: "leben" },
@@ -369,23 +347,27 @@
             const card = document.createElement('div');
             card.className = 'propiedad-card';
             
+            // Manejar imágenes FD
             const imagenSrc = prop.fotografia === "FD" 
                 ? 'https://via.placeholder.com/400x300?text=Sin+Imagen'
                 : prop.fotografia;
             
+            // Formatear precio
             const precioClass = prop.precio_uf === "FD" ? 'propiedad-precio fd' : 'propiedad-precio';
             const precioTexto = prop.precio_uf === "FD" ? 'Precio no disponible' : `${prop.precio_uf.toLocaleString()} UF`;
             
+            // Formatear baños
             const baniosTexto = prop.banios === "FD" ? 'N/D' : prop.banios;
             const baniosClass = prop.banios === "FD" ? 'feature fd' : 'feature';
             
+            // Formatear metros
             const metrosTexto = prop.metros_cuadrados === "FD" ? 'N/D' : `${prop.metros_cuadrados}`;
             const metrosClass = prop.metros_cuadrados === "FD" ? 'feature fd' : 'feature';
             
             card.innerHTML = `
                 <div class="propiedad-imagen">
                     <img src="${imagenSrc}" alt="${prop.direccion}" loading="lazy">
-                    <div class="propiedad-badge">${prop.inmobiliaria}</div>
+                    <div class="propiedad-badge">ID: ${prop.id}</div>
                     <div class="propiedad-pais">${prop.pais}</div>
                 </div>
                 <div class="propiedad-content">
@@ -394,7 +376,7 @@
                     <div class="propiedad-features">
                         <div class="feature">
                             <span>${prop.habitaciones}</span>
-                            Dorm.
+                            Habitaciones
                         </div>
                         <div class="${baniosClass}">
                             <span>${baniosTexto}</span>
@@ -407,7 +389,7 @@
                     </div>
                     <div class="propiedad-footer">
                         <span class="inmobiliaria">${prop.inmobiliaria}</span>
-                        <a href="https://wa.me/+56979785883?text=Hola, me interesa la propiedad ${prop.direccion} - ${prop.precio_uf !== 'FD' ? prop.precio_uf + ' UF' : 'consultar precio'}" 
+                        <a href="https://wa.me/+56979785883?text=Hola, me interesa la propiedad ID ${prop.id} - ${prop.direccion}" 
                            class="whatsapp-btn" 
                            target="_blank">
                             📱 Contactar
@@ -419,17 +401,13 @@
             return card;
         }
 
-        // Variables globales
-        let todasLasPropiedades = propiedades;
-        let regionActiva = null;
-
-        // Función para renderizar propiedades
+        // Función para renderizar todas las propiedades
         function renderizarPropiedades(props) {
             const container = document.getElementById('propiedades-container');
             container.innerHTML = '';
             
             if (props.length === 0) {
-                container.innerHTML = '<p class="no-results">No se encontraron propiedades en esta región</p>';
+                container.innerHTML = '<p class="no-results">No se encontraron propiedades con esos filtros</p>';
                 return;
             }
             
@@ -437,25 +415,35 @@
                 container.appendChild(crearCard(prop));
             });
             
-            const totalTexto = regionActiva ? `en ${regionActiva}` : 'totales';
-            document.getElementById('stats').innerHTML = `Mostrando ${props.length} propiedades ${totalTexto}`;
+            // Actualizar estadísticas
+            document.getElementById('stats').innerHTML = `Mostrando ${props.length} de ${propiedades.length} propiedades`;
         }
 
-        // Función para filtrar por región
-        function filtrarPorRegion(region, event) {
-            regionActiva = region;
+        // Función para filtrar propiedades
+        function filtrarPropiedades() {
+            const precioMin = parseFloat(document.getElementById('filtro-precio-min').value) || 0;
+            const precioMax = parseFloat(document.getElementById('filtro-precio-max').value) || Infinity;
+            const habitacionesMin = parseInt(document.getElementById('filtro-habitaciones').value) || 0;
+            const baniosMin = parseInt(document.getElementById('filtro-banos').value) || 0;
+            const metrosMin = parseFloat(document.getElementById('filtro-metros').value) || 0;
             
-            // Actualizar botones activos
-            document.querySelectorAll('.region-btn').forEach(btn => {
-                btn.classList.remove('active');
-            });
-            event.target.classList.add('active');
-            
-            const filtradas = todasLasPropiedades.filter(prop => {
-                if (region === 'Brasil') {
-                    return prop.pais.includes('Brasil');
-                }
-                return prop.region === region;
+            const filtradas = propiedades.filter(prop => {
+                // Filtro precio
+                const precioValido = prop.precio_uf === "FD" || 
+                    (prop.precio_uf >= precioMin && prop.precio_uf <= precioMax);
+                
+                // Filtro habitaciones
+                const habValido = prop.habitaciones >= habitacionesMin;
+                
+                // Filtro baños
+                const baniosValido = prop.banios === "FD" || 
+                    (typeof prop.banios === 'number' && prop.banios >= baniosMin);
+                
+                // Filtro metros
+                const metrosValido = prop.metros_cuadrados === "FD" || 
+                    (typeof prop.metros_cuadrados === 'number' && prop.metros_cuadrados >= metrosMin);
+                
+                return precioValido && habValido && baniosValido && metrosValido;
             });
             
             renderizarPropiedades(filtradas);
@@ -463,25 +451,19 @@
 
         // Función para limpiar filtros
         function limpiarFiltros() {
-            regionActiva = null;
-            document.querySelectorAll('.region-btn').forEach(btn => {
-                btn.classList.remove('active');
-            });
-            renderizarPropiedades(todasLasPropiedades);
+            document.getElementById('filtro-precio-min').value = '';
+            document.getElementById('filtro-precio-max').value = '';
+            document.getElementById('filtro-habitaciones').value = '';
+            document.getElementById('filtro-banos').value = '';
+            document.getElementById('filtro-metros').value = '';
+            renderizarPropiedades(propiedades);
         }
 
-        // Inicialización
+        // Event listeners
         document.addEventListener('DOMContentLoaded', () => {
-            renderizarPropiedades(todasLasPropiedades);
+            renderizarPropiedades(propiedades);
             
-            // Event listeners para los botones de región
-            document.querySelectorAll('.region-btn').forEach(btn => {
-                btn.addEventListener('click', (e) => {
-                    const region = e.target.dataset.region;
-                    filtrarPorRegion(region, e);
-                });
-            });
-            
+            document.getElementById('btn-filtrar').addEventListener('click', filtrarPropiedades);
             document.getElementById('btn-limpiar').addEventListener('click', limpiarFiltros);
         });
     </script>
