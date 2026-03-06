@@ -182,11 +182,21 @@
             flex-direction: column;
         }
 
+        .propiedad-subtitle {
+            font-size: 12px;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 5px;
+        }
+
         .propiedad-precio {
             font-size: 28px;
             font-weight: 700;
             color: #0f172a;
+            margin-top: 10px;
             margin-bottom: 5px;
+            text-align: center;
         }
 
         .propiedad-precio.fd {
@@ -197,9 +207,7 @@
         .propiedad-direccion {
             font-size: 14px;
             color: #64748b;
-            margin-bottom: 15px;
-            line-height: 1.5;
-            min-height: 42px;
+            margin-bottom: 1px;
         }
 
         .propiedad-features {
@@ -367,7 +375,7 @@
                 : prop.fotografia;
             
             const precioClass = prop.precio_uf === "FD" ? 'propiedad-precio fd' : 'propiedad-precio';
-            const precioTexto = prop.precio_uf === "FD" ? 'Precio no disponible' : `${prop.precio_uf.toLocaleString()} UF`;
+            const precioTexto = prop.precio_uf === "FD" ? 'Precio no disponible' : `UF ${prop.precio_uf.toLocaleString()}`;
             
             const baniosTexto = prop.banios === "FD" ? 'N/D' : prop.banios;
             const baniosClass = prop.banios === "FD" ? 'feature fd' : 'feature';
@@ -378,12 +386,13 @@
             card.innerHTML = `
                 <div class="propiedad-imagen">
                     <img src="${imagenSrc}" alt="${prop.direccion}" loading="lazy">
-                    <div class="propiedad-badge">${prop.inmobiliaria}</div>
                     <div class="propiedad-pais">${prop.pais}</div>
                 </div>
                 <div class="propiedad-content">
-                    <h3 class="${precioClass}">${precioTexto}</h3>
                     <p class="propiedad-direccion">${prop.direccion}</p>
+                    <p class="propiedad-subtitle">Unidades disponibles desde</p>
+                    <h3 class="${precioClass}">${precioTexto}</h3>
+                    
                     <div class="propiedad-features">
                         <div class="feature">
                             <span>${prop.habitaciones}</span>
