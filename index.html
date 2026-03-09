@@ -375,7 +375,7 @@
                 : prop.fotografia;
             
             const precioClass = prop.precio_uf === "FD" ? 'propiedad-precio fd' : 'propiedad-precio';
-            const precioTexto = prop.precio_uf === "FD" ? 'Precio no disponible' : `UF ${prop.precio_uf.toLocaleString()}`;
+            const precioTexto = prop.precio_uf === "FD" ? 'Precio no disponible' : `Desde UF ${prop.precio_uf.toLocaleString()}`;
             
             const baniosTexto = prop.banios === "FD" ? 'N/D' : prop.banios;
             const baniosClass = prop.banios === "FD" ? 'feature fd' : 'feature';
